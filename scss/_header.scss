@@ -1,0 +1,34 @@
+.header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    &_inner {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    &_nav {
+        display: flex;
+        align-items: center;
+
+        &__logo {
+            filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
+        }
+
+        &__list {
+            display: flex;
+            padding-left: 120px;
+            color: #fff;
+        }
+        &__item:not(:first-child) {
+            padding-left: 30px;
+        }
+    }
+
+    .contact_btn {
+        margin-left: auto;
+        color: #fff;
+    }
+}

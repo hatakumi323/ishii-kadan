@@ -1,3 +1,40 @@
+.header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background: transparent;
+}
+
+.header_inner {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+
+.header_nav__logo img {
+  color: #fff;
+}
+
+.header_nav__list {
+  display: flex;
+  padding-left: 120px;
+  color: #fff;
+}
+
+.header_nav__item:not(:first-child) {
+  padding-left: 30px;
+}
+
+.header .contact_btn {
+  margin-left: auto;
+  color: #fff;
+}
+
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
 /* Reset box-model and set borders */
 /* ============================================ */
@@ -456,4 +493,23 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+.main {
+  background-image: url(../img/mainbg01.jpg);
+  background-size: cover;
+  text-align: center;
+  height: 1079px;
+  width: auto;
+}
+
+.main_copy {
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  width: auto;
+  color: #fff;
+  font-size: 36px;
+  margin-left: 693px;
+  padding-top: 282px;
 }
