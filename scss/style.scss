@@ -495,20 +495,16 @@ template {
 }
 
 .main {
-    background-image: url(../img/mainbg01.jpg);
-    background-size: cover;
-    text-align: center;
-    height: 1079px;
-    width: auto;
+    position: relative;
 
     &_copy {
         -ms-writing-mode: tb-rl;
         -webkit-writing-mode: vertical-rl;
         writing-mode: vertical-rl;
-        width: auto;
         color: #fff;
         font-size: 36px;
-        margin-left: 693px;
-        padding-top: 282px;
+        position: absolute;
+        right: 508px;
+        top: 282px;
     }
 }

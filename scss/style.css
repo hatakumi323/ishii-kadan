@@ -16,8 +16,8 @@
   align-items: center;
 }
 
-.header_nav__logo img {
-  color: #fff;
+.header_nav__logo {
+  filter: invert(88%) sepia(61%) saturate(0%) hue-rotate(229deg) brightness(107%) contrast(101%);
 }
 
 .header_nav__list {
@@ -496,20 +496,16 @@ template {
 }
 
 .main {
-  background-image: url(../img/mainbg01.jpg);
-  background-size: cover;
-  text-align: center;
-  height: 1079px;
-  width: auto;
+  position: relative;
 }
 
 .main_copy {
   -ms-writing-mode: tb-rl;
   -webkit-writing-mode: vertical-rl;
   writing-mode: vertical-rl;
-  width: auto;
   color: #fff;
   font-size: 36px;
-  margin-left: 693px;
-  padding-top: 282px;
+  position: absolute;
+  right: 508px;
+  top: 282px;
 }
