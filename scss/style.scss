@@ -518,6 +518,7 @@ body {
 
 .about {
   background-image: url(../img/bg.png);
+  margin-bottom: 106px;
 
   &_inner {
     display: flex;
@@ -531,7 +532,7 @@ body {
         -webkit-writing-mode: vertical-rl;
         writing-mode: vertical-rl;
         font-size: 28px;
-        line-height: 55px;
+        line-height: 3;
         margin-top: 64px;
         padding-top: 2.5em;
         text-indent: -2.5em;
@@ -545,10 +546,53 @@ body {
         margin-right: 118px;
         padding-top: 149px;
         padding-bottom: 120px;
-        line-height: 35px;
+        line-height: 2;
 
         &:last-child {
           margin-bottom: auto;
         }
+  }
+}
+
+.menu {
+
+  &_inner {
+    width: 100%;
+  }
+
+  &_item {
+    padding-bottom: 122px;
+    display: flex;
+    &:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+    img {
+      width: 1050px;
+      height: 545px;
+    }
+  }
+
+  &_ttl {
+    font-size: 36px;
+    line-height: 1.7;
+  }
+
+  &_txt {
+    margin: 75px 0;
+    line-height: 2;
+  }
+
+  &_service {
+    margin-left: 137px;
+    text-align: left;
+    &:nth-child(even) {
+      margin-right: 137px;
+    }
+  }
+
+  &_btn {
+    display: inline-block;
+    padding: 20px 44px;
+    border: 1px solid #707070;
   }
 }
