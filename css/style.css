@@ -3,6 +3,7 @@
   width: 100%;
   position: fixed;
   background: transparent;
+  z-index: 300;
 }
 
 .header_inner {
@@ -24,6 +25,7 @@
   display: flex;
   padding-left: 120px;
   color: #fff;
+  font-size: 1rem;
 }
 
 .header_nav__item:not(:first-child) {
@@ -33,6 +35,15 @@
 .header .contact_btn {
   margin-left: auto;
   color: #fff;
+  background-color: #978F10;
+  padding: 16px 37px;
+}
+
+.header .contact_btn::before {
+  content: url(../img/calender.png);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 
 /*! destyle.css v2.0.2 | MIT License | https://github.com/nicolas-cusan/destyle.css */
@@ -491,6 +502,10 @@ template {
   display: none;
 }
 
+body {
+  font-family: 'Noto Serif JP', serif;
+}
+
 .main {
   position: relative;
 }
@@ -500,7 +515,41 @@ template {
   color: #fff;
   font-size: 36px;
   position: absolute;
-  right: 508px;
-  top: 282px;
+  right: 480px;
+  bottom: 515px;
+  line-height: 102px;
+}
+
+.about {
+  background-image: url(../img/bg.png);
+}
+
+.about_inner {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about_ttl {
+  writing-mode: vertical-rl;
+  font-size: 28px;
+  line-height: 55px;
+  margin-top: 64px;
+  padding-top: 2.5em;
+  text-indent: -2.5em;
+}
+
+.about_txt {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  margin-right: 118px;
+  padding-top: 149px;
+  padding-bottom: 120px;
+  line-height: 35px;
+}
+
+.about_txt:last-child {
+  margin-bottom: auto;
 }
 /*# sourceMappingURL=style.css.map */

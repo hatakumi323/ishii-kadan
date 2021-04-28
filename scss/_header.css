@@ -3,6 +3,7 @@
   width: 100%;
   position: fixed;
   background: transparent;
+  z-index: 300;
 }
 
 .header_inner {
@@ -24,6 +25,7 @@
   display: flex;
   padding-left: 120px;
   color: #fff;
+  font-size: 1rem;
 }
 
 .header_nav__item:not(:first-child) {
@@ -33,4 +35,13 @@
 .header .contact_btn {
   margin-left: auto;
   color: #fff;
+  background-color: #978F10;
+  padding: 16px 37px;
+}
+
+.header .contact_btn::before {
+  content: url(../img/calender.png);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
 }

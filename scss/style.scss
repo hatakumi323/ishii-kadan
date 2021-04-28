@@ -494,6 +494,12 @@ template {
   display: none;
 }
 
+// 共通要素
+
+body {
+  font-family: 'Noto Serif JP', serif;
+}
+
 .main {
     position: relative;
 
@@ -504,7 +510,45 @@ template {
         color: #fff;
         font-size: 36px;
         position: absolute;
-        right: 508px;
-        top: 282px;
+        right: 480px;
+        bottom: 515px;
+        line-height: 102px;
     }
+}
+
+.about {
+  background-image: url(../img/bg.png);
+
+  &_inner {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &_ttl {
+        -ms-writing-mode: tb-rl;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        font-size: 28px;
+        line-height: 55px;
+        margin-top: 64px;
+        padding-top: 2.5em;
+        text-indent: -2.5em;
+  }
+
+  &_txt {
+        -ms-writing-mode: tb-rl;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        text-orientation: upright;
+        margin-right: 118px;
+        padding-top: 149px;
+        padding-bottom: 120px;
+        line-height: 35px;
+
+        &:last-child {
+          margin-bottom: auto;
+        }
+  }
 }

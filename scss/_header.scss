@@ -3,6 +3,7 @@
     width: 100%;
     position: fixed;
     background: transparent;
+    z-index: 300;
     &_inner {
         padding: 20px;
         display: flex;
@@ -21,6 +22,7 @@
             display: flex;
             padding-left: 120px;
             color: #fff;
+            font-size: 1rem;
         }
         &__item:not(:first-child) {
             padding-left: 30px;
@@ -30,5 +32,14 @@
     .contact_btn {
         margin-left: auto;
         color: #fff;
+        background-color: #978F10;
+        padding: 16px 37px;
+
+        &::before {
+            content: url(../img/calender.png);
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
     }
 }
