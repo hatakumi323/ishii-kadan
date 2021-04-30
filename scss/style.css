@@ -750,3 +750,99 @@ body {
 .access_ttl span {
   margin: 60px 0 20px;
 }
+
+.access_wrap {
+  display: flex;
+  align-items: center;
+  padding-bottom: 69px;
+}
+
+.access_wrap img {
+  width: 656px;
+  height: 370px;
+  margin-left: 370px;
+  margin-right: 83px;
+}
+
+.access_dl {
+  display: flex;
+  flex-direction: column;
+}
+
+.access_dl dt {
+  padding: 24px 0;
+}
+
+.access_dl dd br {
+  display: block;
+  content: '';
+  margin: 20px 0;
+}
+
+.access_info {
+  padding-top: 24px;
+}
+
+.access_map {
+  text-align: center;
+  padding-bottom: 110px;
+}
+
+.footer {
+  background-image: url(../img/bg3@2x.png);
+  background-size: cover;
+}
+
+.footer_list {
+  -ms-writing-mode: tb-rl;
+  -webkit-writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
+  padding-top: 64px;
+  padding-bottom: 96px;
+  margin: 0 auto;
+}
+
+.footer_item {
+  font-size: 18px;
+}
+
+.footer_item:not(:nth-child(3)) {
+  padding-left: 34px;
+}
+
+.footer_logo {
+  height: auto;
+  text-align: center;
+}
+
+.footer_contact {
+  padding-top: 72px;
+  text-align: center;
+}
+
+.footer_contact__address {
+  justify-content: center;
+  display: flex;
+}
+
+.footer_contact__address p:first-child {
+  margin-right: 20px;
+}
+
+.footer_contact__tel {
+  display: flex;
+  justify-content: center;
+  padding: 23px 0 61px;
+}
+
+.footer_contact__tel p:first-child {
+  margin-right: 20px;
+}
+
+.copy_right {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 23px 0 25px;
+  text-align: center;
+}

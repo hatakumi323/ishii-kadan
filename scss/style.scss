@@ -747,4 +747,106 @@ body {
       margin: 60px 0 20px;
     }
   }
+
+  &_wrap {
+    display: flex;
+    align-items: center;
+    padding-bottom: 69px;
+    img{
+      width: 656px;
+      height: 370px;
+      margin-left: 370px;
+      margin-right: 83px;
+    }
+  }
+
+
+  &_dl {
+    display: flex;
+    flex-direction: column;
+
+    dt {
+      padding: 24px 0;
+    }
+
+    dd br {
+      display: block;
+      content: '';
+      margin: 20px 0;
+    }
+  }
+
+  &_info {
+    padding-top: 24px;
+  }
+
+  &_map {
+    text-align: center;
+    padding-bottom: 110px;
+
+  }
+}
+
+.footer {
+  background-image: url(../img/bg3@2x.png);
+  background-size: cover;
+
+  &_inner {
+
+  }
+
+  &_list {
+        -ms-writing-mode: tb-rl;
+        -webkit-writing-mode: vertical-rl;
+        writing-mode: vertical-rl;
+        padding-top: 64px;
+        padding-bottom: 96px;
+        margin: 0 auto;
+  }
+
+  &_item {
+    font-size: 18px;
+
+    &:not(:nth-child(3)) {
+      padding-left: 34px;
+    }
+  }
+  
+
+  &_logo {
+    height: auto;
+    text-align: center;
+  }
+
+  &_contact {
+    padding-top: 72px;
+    text-align: center;
+    
+    &__address {
+      justify-content: center;
+      display: flex;
+
+      & p:first-child {
+        margin-right: 20px;
+      }
+    }
+
+    &__tel {
+      display: flex;
+      justify-content: center;
+      padding: 23px 0 61px;
+
+      & p:first-child {
+        margin-right: 20px;
+      }
+    }
+  }
+}
+
+.copy_right {
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 23px 0 25px;
+  text-align: center;
 }
